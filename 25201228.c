@@ -108,7 +108,7 @@ char *getInFixa(char *Str) {
 
         } else if (eh_op(tok)) {
             if (topo_str < 1) return NULL;
-            char b[1024], a[512];
+            char b[1024], a[1024];
             strcpy(b, pilha_str[topo_str--]);
             strcpy(a, pilha_str[topo_str--]);
 
